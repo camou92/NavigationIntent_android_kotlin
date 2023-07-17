@@ -11,6 +11,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val recyclerView: RecyclerView = findViewById(R.id.recycler)
-        recyclerView.adapter = ExpressionAdapter(Dictionnary().datas())
+        recyclerView.adapter = ExpressionAdapter(Dictionnary().datas(), this)
     }
 }
