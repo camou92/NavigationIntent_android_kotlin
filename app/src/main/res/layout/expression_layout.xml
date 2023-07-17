@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_button_text"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="@color/design_default_color_primary">
+
+    </Button>
+
+</FrameLayout>
