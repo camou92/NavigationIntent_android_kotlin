@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.camoutech.navigationintent'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.camoutech.navigationintent"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
